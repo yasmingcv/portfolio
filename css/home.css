@@ -17,3 +17,10 @@
     color: var(--primary-color);
     font-weight: 700;
 }
+@media (max-width: 960px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
