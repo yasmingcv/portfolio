@@ -64,3 +64,20 @@
 .skills__icon span{
     font-size: 1.5rem;
 }
+@media (max-width: 960px){
+    .sobre-mim{
+        max-width: 672px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;   
+    }
+    .skills__icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+        gap: 92px;
+    }
+}

@@ -50,7 +50,7 @@ footer{
     border-top: 2px solid #fff;
 }
 /* TABLET */
-@media (max-width: 960px){
+@media (max-width: 960px){    
     header{
         max-width: 672px;
         width: 100%;

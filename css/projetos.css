@@ -33,3 +33,18 @@
     transform: translateY(0%);
 
 }
+@media (max-width: 960px){
+    .projetos{
+        max-width: 672px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }   
+    .card{
+        width: 672px;
+        height: 420px;
+        display: flex;       
+    }  
+}
