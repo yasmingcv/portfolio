@@ -1,3 +1,6 @@
+.bars{
+    display: none;
+}
 .menu{
     display: flex;
     gap: 72px;
@@ -14,4 +17,9 @@
     .menu{
         display: none;
     }
+    .bars{
+        display: flex;
+        font-size: 1.5rem;
+    }
+
 }

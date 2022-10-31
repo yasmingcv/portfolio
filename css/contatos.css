@@ -50,4 +50,33 @@
 .link-title{
     font-size: 1.5rem;
 }
+@media (max-width: 960px){
+    .contato{
+        max-width: 672px;
+        width: 100%;
+        height: auto;   
+        display: grid;
+        
+        grid-template-areas: 
+            "title title"
+            "contato links"
+            "social social";   
+        grid-template-rows: 1fr 1.5fr 1fr;  
+        grid-template-columns: 1fr 1fr;
+    }
+    .section-title{
+        grid-area: title;
+    }
+    .contato-container{
+        grid-area: contato;
+    }
+    .link-container{
+        grid-area: links;
+        display: flex;
+        
+    }
+    .social-container{
+        grid-area: social;
+    }
+}
  
