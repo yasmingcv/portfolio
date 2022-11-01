@@ -94,3 +94,24 @@
         gap: 92px;
     }
 }
+@media (max-width:640px){
+    .sobre-mim{
+        max-width: 572px;
+        width: 100%;
+    }
+    .sobre-mim h2{
+        max-width: 572px;
+        width: 100%;
+        font-size: 7rem;
+    }
+    .skills__icons{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 80vh;
+    }
+    .skills__icon{
+        display: flex;
+        justify-content: center;
+    }
+}

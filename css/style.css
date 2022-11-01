@@ -56,3 +56,20 @@ footer{
         width: 100%;
     }
 }
+@media (max-width: 640px){
+    body{
+        max-width: 640px;
+        width: 100%;
+    }
+    header{
+        max-width: 572px;
+        width: 100%;
+    }
+    .sobre-mim{
+        height: auto;
+    }
+    .projetos{
+        height: auto;
+        padding-bottom: 50px;
+    }
+}

@@ -48,3 +48,19 @@
         display: flex;       
     }  
 }
+@media (max-width: 640px){
+    .projetos{
+        max-width: 572px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .card-container{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 280px;
+        height: 175px;
+    }
+}
